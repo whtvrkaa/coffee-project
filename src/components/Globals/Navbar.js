@@ -34,7 +34,7 @@ this.state.navbarOpen?this.setState({navbarOpen: false, css:"collapse navbar-col
         <nav className="navbar navbar-expand-sm
         bg-light navbar-light">
         <Link to="/" className="navbar-brand">
-<img  src="https://www.flaticon.com/svg/vstatic/svg/3043/3043967.svg?token=exp=1615413101~hmac=9c9561060889b8d36f6ba5d41e258b17" className="logo"/>
+<img  src="https://i.ibb.co/D4LJNT3/coffee-cup.png" className="logo"/>
         </Link>
         <button className="navbar-toggler" onClick={this.navbarHandler}>
             <span className="navbar-toggler-icon"></span>
