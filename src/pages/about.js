@@ -9,26 +9,26 @@ import {FaGulp} from 'react-icons/fa'
 import BackgroundSection from "../components/Globals/BackgroundSection"
 import Info from './../components/Home/Info'
 
-const IndexPage = ({data}) => (
+const AboutPage = ({data}) => (
   <Layout>
     <SEO title="Home" />
  
 <BackgroundSection
- img={data.img.childImageSharp.fluid} title="paw's coffee" styleClass="default-background"/>
+ img={data.img.childImageSharp.fluid} title="about us" styleClass="about-background"/>
 <Info/>
   </Layout>
 );
 export const query = graphql`
 {
-  img: file(relativePath:{eq:"default-background.jpg"}){
+  img: file(relativePath:{eq:"about-background.jpeg"}){
   childImageSharp{
   
-  fluid{
-    ...GatsbyImageSharpFluid_tracedSVG
+  fluid
+  {...GatsbyImageSharpFluid_tracedSVG
 
   }
 }
   }
-}
+  }
 `
-export default IndexPage;
+export default AboutPage;
