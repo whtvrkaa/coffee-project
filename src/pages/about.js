@@ -24,7 +24,7 @@ export const query = graphql`
   childImageSharp{
   
   fluid
-  {...GatsbyImageSharpFluid_tracedSVG
+  {...GatsbyImageSharpFluid
 
   }
 }
