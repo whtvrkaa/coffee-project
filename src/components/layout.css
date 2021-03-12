@@ -101,6 +101,6 @@ right: 15px;
 @media only screen and (max-width: 768px) {
 #basket {
   position: relative;
-  margin-left: 0px;
+ left: 10px;
 }
 }
