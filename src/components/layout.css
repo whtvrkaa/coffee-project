@@ -31,7 +31,7 @@ h1,h2,h3,h4,h5,h6{
 
 .logo {
 
-  max-width: 60px;
+  max-width: 40px;
   margin-left: 15px;
 }
 
@@ -71,7 +71,19 @@ h1{
   background: var(--mainBrown);
 }
 
-.menu {
+.menu,
+.contact
+ {
   background: var(--mainGrey);
+
+}
+.nav-link {
+  margin-top: 13px;
+}
+.header {
+  color: var(--mainYellow) !important;
+}
+p{
+  font-size: 15px !important;
 
 }

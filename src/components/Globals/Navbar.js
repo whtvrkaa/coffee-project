@@ -34,7 +34,7 @@ this.state.navbarOpen?this.setState({navbarOpen: false, css:"collapse navbar-col
         <nav className="navbar navbar-expand-sm
         bg-light navbar-light">
         <Link to="/" className="navbar-brand">
-<img  src="https://i.ibb.co/r7kDrVy/coffee-cup-2.png" className="logo"/>
+<img  src="https://i.ibb.co/7rHY84s/coffee-bean.png" className="logo"/>
         </Link>
         <button className="navbar-toggler" onClick={this.navbarHandler}>
             <span className="navbar-toggler-icon"></span>
@@ -53,7 +53,7 @@ this.state.navbarOpen?this.setState({navbarOpen: false, css:"collapse navbar-col
                     })
                 }
                 <li className="nav-item ml-sm-5">
-                    <img src="https://i.ibb.co/XZW58TL/shopping-basket.png" className="cart-icon"/>
+                    <img src="https://i.ibb.co/XZW58TL/shopping-basket.png" className="cart-icon snipcart-checkout"/>
                 </li>
             </ul>
         </div>
