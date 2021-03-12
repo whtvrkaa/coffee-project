@@ -7,11 +7,13 @@
 }
 
 body {
+
   background: var(--mainWhite);
   color: var(--mainDark);
   font-family: Verdana, Geneva, Tahoma, sans-serif
  !important;
 }
+
 
 h1,h2,h3,h4,h5,h6{
   font-family: 'Courier New', Courier, monospace  !important;
@@ -27,6 +29,8 @@ h1,h2,h3,h4,h5,h6{
   color: var(--mainYellow);
   font-size: 2rem;
   max-width: 40px;
+ 
+ 
 }
 
 .logo {
@@ -86,4 +90,17 @@ h1{
 p{
   font-size: 15px !important;
 
+}
+
+#basket{
+position: absolute;
+right: 15px;
+  display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+#basket {
+  position: relative;
+  margin-left: 0px;
+}
 }

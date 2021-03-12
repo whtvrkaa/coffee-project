@@ -53,7 +53,7 @@ this.state.navbarOpen?this.setState({navbarOpen: false, css:"collapse navbar-col
                     })
                 }
                 <li className="nav-item ml-sm-5">
-                    <img src="https://i.ibb.co/XZW58TL/shopping-basket.png" className="cart-icon snipcart-checkout"/>
+                    <img src="https://i.ibb.co/XZW58TL/shopping-basket.png" id="basket" className="cart-icon snipcart-checkout"/>
                 </li>
             </ul>
         </div>

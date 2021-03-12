@@ -29,8 +29,9 @@ export const query = graphql`
     img: file(relativePath: { eq: "paw2.jpg" }) {
       childImageSharp {
         fluid {
-          ...GatsbyImageSharpFluid
-        }
+          ...GatsbyImageSharpFluid,
+         
+        },
       }
     }
     menu: allContentfulCoffeeItem {
@@ -44,6 +45,7 @@ export const query = graphql`
           price
           category
           image {
+           
             fixed(width: 120, height: 120) {
               ...GatsbyContentfulFixed
             }
