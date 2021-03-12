@@ -11,12 +11,12 @@ function Contact() {
                      <div className="form-group py-2" >
                          <label htmlFor="name">Name</label>
                          <input type="text" className="form-control"
-                             name="name" id="name" placeholder="john smith" />
+                             name="name" id="name" placeholder="your name.." />
                      </div>
                      <div className="form-group py-2">
                          <label htmlFor="email">Email</label>
                          <input type="text" className="form-control"
-                             name="email" id="email" placeholder="email@email" />
+                             name="email" id="email" placeholder="your email.." />
                      </div>
                      <div className="form-group py-2">
                          <label htmlFor="decription">Description</label>
