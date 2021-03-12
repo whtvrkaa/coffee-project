@@ -5,8 +5,11 @@
   --mainWhite: #fff;
   --mainDark: #222;
 }
-
+html, body{
+  overflow-x: hidden;
+}
 body {
+
 
   background: var(--mainWhite);
   color: var(--mainDark);
@@ -102,5 +105,4 @@ right: 15px;
 #basket {
   position: relative;
  left: 10px;
-}
-}
+}}
